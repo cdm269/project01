@@ -1,0 +1,45 @@
+h1 {
+    color: blue;
+    font-family: Helvetica, sans-serif;
+    background-color: pink;
+    text-align: left;
+    padding-top: 15px;
+}
+
+/* I will try to add css to document as I go */
+
+#myCarousel {
+    align-items: justify;
+}
+
+
+  .bar-item button {
+    float: right;
+  }
+  
+  .container a {
+    display: inline;
+    color: darkmagenta;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Lucida Sans Regular;
+    font-size: 12px;
+  }
+
+  .carousel-inner > .item > img,
+
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .lead {
+    text-align: center;
+  }
+ h2 {
+   background-color: pink;
+ }
+ .row {
+   text-align: center;
+ }
