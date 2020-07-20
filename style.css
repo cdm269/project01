@@ -37,9 +37,19 @@ h1 {
   .lead {
     text-align: center;
   }
- h2 {
-   background-color: pink;
+ h2, h3 {
+   background-color: blue;
+   color:white;
  }
  .row {
    text-align: center;
+ }
+
+ .watchband-container {
+  border: 10px solid black;
+
+ }
+ .tanktop-container {
+  border: 10px solid red
+
  }
