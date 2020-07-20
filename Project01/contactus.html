@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <title>Shop Eden's Boutique</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Let us know if you are looking for anything in particular:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="img/edensboutiquelogo.jpg" style="width:25%">
+        <img src="img/watchband.jpg" style="width:25%">
+        <img src="img/tanktop.jpg" style="width:25%">
+      </div>
+      <br>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="pnumber">Phone number</label>
+          <input type="number" id="pnumber" name="phonenumber" placeholder="Your phone number...">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email address..." required> <br>
+          <label for="comment">Comment</label>
+          <textarea id="subject" name="subject" placeholder="Feedback..." style="height:170px" required></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+</html>
